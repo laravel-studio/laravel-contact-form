@@ -1,0 +1,26 @@
+{
+    "name": "laravel-studio/simple-contact-form",
+    "description": "A simple contact form to send mail and save contact query to database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laravel Studio",
+            "email": "developer@laravel-studio.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laravelstudio\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravelstudio\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
